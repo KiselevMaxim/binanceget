@@ -7,4 +7,4 @@ npm i
 ## Run
 node binanceget.js
 
-getting data from 
+getting btcusdt m5 history data from 2017-08-17 04:00 
