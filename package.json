@@ -1,0 +1,21 @@
+{
+  "name": "binanceget",
+  "version": "1.0.0",
+  "description": "get btcusdt m5 bar history",
+  "main": "binanceget.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "binance",
+    "price",
+    "history"
+  ],
+  "author": "Maksim Kiselev",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "xlsx": "^0.15.1"
+  },
+  "devDependencies": {}
+}
