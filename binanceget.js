@@ -79,4 +79,6 @@ const makeXLSX = (filename, ws_name, data) => {
     /* write workbook */
     XLSX.writeFile(wb, filename);
 }
-getBinanceData('M5','BTCUSDT', '5m', 308 /*batches*/ , 1000 /*records in batch*/) // get data by batches, set records per one batch. Batches divided by delay 0.9 sec
+//getBinanceData('M5','BTCUSDT', '5m', 308 /*batches*/ , 1000 /*records in batch*/) // get data by batches, set records per one batch. Batches divided by delay 0.9 sec
+//getBinanceData('M3','BTCUSDT', '3m', 508 /*batches*/ , 1000 /*records in batch*/) // get data by batches, set records per one batch. Batches divided by delay 0.9 sec
+getBinanceData('M1','BTCUSDT', '1m', 1600 /*batches*/ , 1000 /*records in batch*/) // get data by batches, set records per one batch. Batches divided by delay 0.9 sec
