@@ -16,7 +16,7 @@
   "dependencies": {
     "axios": "^0.19.1",
     "fs": "0.0.1-security",
-    "xlsx": "^0.15.4"
+    "xlsx": "^0.17.0"
   },
   "devDependencies": {}
 }
